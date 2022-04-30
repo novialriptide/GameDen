@@ -5,7 +5,7 @@ There will be no new features added to this game engine,
 if there are recent commits, they were either dependency fixes
 or cleanup.
 
-why did I upload this to GitHub? There are several projects that
+Why did I upload this to GitHub? There are several projects that
 are privated on my profile that uses this game engine, but for my
 own sake I decided to private them.
 
