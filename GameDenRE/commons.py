@@ -2,6 +2,7 @@ import pymunk
 import math
 import json
 
+
 def _calculate_segment_intersection(x1, y1, x2, y2, x3, y3, x4, y4):
     exception_msg = "two lines inputted are parallel or coincident"
 

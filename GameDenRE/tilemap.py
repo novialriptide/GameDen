@@ -1,5 +1,6 @@
 import pygame
 
+
 class TileMap:
     def __init__(self, map_data: dict, tileset):
         self.map_data = map_data
@@ -41,7 +42,12 @@ class TileMap:
             for column in range(m_width):
                 tile_id = self.get_tile_id((row, column), layer)
                 if tile_id != 0:
-                    rect = pygame.Rect(((a_x + x, a_y + y), (t_width * render_size, t_height * render_size)))
+                    rect = pygame.Rect(
+                        (
+                            (a_x + x, a_y + y),
+                            (t_width * render_size, t_height * render_size),
+                        )
+                    )
                     collision_rects.append([rect, tile_id])
 
                 x += int(t_width * render_size)

@@ -1,5 +1,6 @@
 import pymunk
 
+
 class Entity:
     def __init__(self, body, size, tilemap=None):
         self.tilemap = tilemap

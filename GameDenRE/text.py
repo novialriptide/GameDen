@@ -1,5 +1,6 @@
 import pygame
 
+
 def text(text: str, size: int, sys_font: str, color: str):
     pygame.font.init()
     formatting = pygame.font.SysFont(sys_font, int(size))

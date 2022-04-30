@@ -1,5 +1,6 @@
 import pygame
 
+
 class TileSet:
     def __init__(self, textures_path: str, tile_size: tuple, tiles_distance: int = 0):
         self.textures = pygame.image.load(textures_path)
